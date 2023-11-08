@@ -37,7 +37,9 @@ main {
   /* background-image: url("background.jpg");
   background-size: cover;
   background-position: center; */
-  background: url("background.jpg") no-repeat fixed center;
+  /* background: url("background.jpg") no-repeat fixed center; */
+  background: url("https://source.unsplash.com/random/1920x1080/?nature")
+    no-repeat fixed center;
 }
 
 .overlay {
