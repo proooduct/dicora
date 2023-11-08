@@ -1,0 +1,77 @@
+/* Custom Fonts */
+@font-face {
+  font-family: "Dicora";
+  src: url(Anurati-Regular.otf);
+}
+
+/* Base Resets */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Applying Fonts */
+body {
+  font-family: "Dicora", sans-serif;
+}
+
+button {
+  font-family: "Dicora", sans-serif;
+}
+
+/* Main */
+main {
+  height: 100%;
+  width: 100%;
+  /* background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center; */
+  background: url("background.jpg") no-repeat fixed center;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(39, 74, 7, 0.516);
+  position: relative;
+}
+
+.overlay .center {
+  position: absolute; /* Closest non-static parent */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.center > h1 {
+  font-size: 7rem;
+  letter-spacing: 30px;
+}
+
+.center > button {
+  padding: 1rem 2rem;
+  background: none;
+  border: 1px solid white;
+  cursor: pointer;
+  color: white;
+  letter-spacing: 20px;
+}
+
+.center > button:hover {
+  background: black;
+  color: white;
+  border: none;
+}
